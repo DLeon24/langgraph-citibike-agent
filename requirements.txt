@@ -1,0 +1,34 @@
+# ============================================
+# Requirements - CitiBike SQL Agent (LangGraph + BigQuery)
+# ============================================
+
+# ============================================
+# LANGCHAIN & LANGGRAPH
+# ============================================
+langchain-core>=1.0.0
+langchain-openai>=0.2.0    # OpenAI models
+langgraph>=1.0.0           # Agent orchestration
+
+# ============================================
+# BIGQUERY
+# ============================================
+google-cloud-bigquery      # BigQuery client
+sqlalchemy                 # Connection abstraction
+sqlalchemy-bigquery        # BigQuery dialect for SQLAlchemy
+google-cloud-bigquery-storage # For BigQuery storage
+
+# ============================================
+# DATA & FORMATTING
+# ============================================
+pandas                     # DataFrame for query results
+tabulate                   # Required for pandas.to_markdown()
+
+# ============================================
+# WEB UI
+# ============================================
+streamlit                  # Chat interface
+
+# ============================================
+# UTILITIES
+# ============================================
+python-dotenv              # Environment variables (.env)

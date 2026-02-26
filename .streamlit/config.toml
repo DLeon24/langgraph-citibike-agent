@@ -1,0 +1,9 @@
+# Streamlit config - Light theme with color accents
+
+[theme]
+base = "light"
+primaryColor = "#0284c7"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f9ff"
+textColor = "#1e293b"
+font = "sans serif"
