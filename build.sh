@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build Docker image for basic-chatbot: project name + version tag.
+# Build Docker image for langgraph-citibike-agent: project name + version tag.
 # Usage: ./build.sh <dockerhub_user> <version> <arch>
 
 set -euo pipefail
